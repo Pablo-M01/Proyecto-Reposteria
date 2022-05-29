@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: opensans-bold;
+    src: url(Proyecto/Tipografía/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: opensans-regular;
+    src: url(Proyecto/Tipografía/OpenSans-Regular.ttf);
+}
+
+/* body{
+    font-family: 'opensans';
+} */
+
+h1{
+    font-family: opensans-bold;
+    font-size: 35px;
+}
+
+h2{
+    font-family: opensans-bold;
+    font-size: 30px;
+}
+
+h3{
+    font-family: opensans-bold;
+    font-size: 25px;
+}
+
+p{
+    font-family: opensans-regular;
+}
+
+/* .p1{
+    font-family: opensans-regular;
+    font-size: 16px;
+    font-weight: 100px;
+} */
+
+.contenedor-general{
+    /* background-image: Proyecto/Imagenes/Fondo1; */
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+.caja1{
+    color: white;
+    background-image: url(Proyecto/Imagenes/Fondo1.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    padding: 10px;
+}
+
+.imglogo{
+    margin: 5px;
+    display: block;
+    float: left;
+
+}
+
+.navegacionn{
+    font-family: opensans-bold;
+    color: white;
+    padding: 15px 10px;
+    margin: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navegacionn:hover{
+    color: #d2393c;
+}
+
+.barra{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ul{
+    padding: 30px;
+    text-align: right;
+    list-style: none;
+    margin: 10px;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+/* .navegacion a{
+    font-family: opensans-bold;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+} */
+
+.contenido1{
+    width: 100%;
+    min-height: 300px;
+}
+
+.caja2{
+    color: #ded6bf;
+    text-align: center;
+    background-color: #d2393c;
+    width: 50%;
+    min-height: 300px;
+    float: left;
+    padding: 30px;
+}
+
+.caja3{
+    color: #d2393c;
+    text-align: center;
+    background-color: #ded6bf;
+    width: 50%;
+    min-height: 300px;
+    float: right;
+    padding: 30px;
+}
+
+.caja4{
+    color: white;
+    text-align: center;
+    background-image: url(Proyecto/Imagenes/Fondo2.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+}
+
+.contenido2{
+    width: 100%;
+    min-height: 500px;
+    background-color: #f5f0ed;
+}
+
+.imgiconos{
+    padding: 5px;
+    display: block;
+    float: left;
+}
+
+.caja5-1{
+    color: black;
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.caja5-2{
+    color: black;
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding: 30px;
+}
+
+.caja5-3{
+    color: black;
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.caja5-4{
+    color: black;
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding: 30px;
+}
+
+.contenido3{
+    width: 100%;
+    min-height: 300px;
+}
+
+.caja6-1{
+    color: #d2393c;
+    text-align: center;
+    background-color: #ded6bf;
+    width: 50%;
+    min-height: 300px;
+    float: left;
+    padding: 30px;
+}
+
+.caja6-2{
+    color: #ded6bf;
+    text-align: center;
+    background-color: #d2393c;
+    width: 50%;
+    min-height: 300px;
+    float: right;
+    padding: 30px;
+}
+
+.caja7{
+    width: 100%;
+    min-height: 100px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
